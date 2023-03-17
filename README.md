@@ -33,12 +33,6 @@ The current version provides the following features:
 - Boundary conditions: Symmetry, Periodic, Wall, Dirichlet, Neumann
 - CPU/GPU/TPU capability
 
-## Example simulations
-<img src="/docs/images/fullimplosion.png" alt="fullimplosion" height="250"/>
-<img src="/docs/images/shockbubble_2d.png" alt="air helium shockbubble 2D" height="250"/>
-<img src="/docs/images/shockbubble_3d.png" alt="air helium shockbubble 3D" height="250"/>
-<img src="/docs/images/shuttle.png" alt="space shuttle at mach 2" height="250"/>
-
 ## Pip Installation
 Before installing JAX-Fluids, please ensure that you have
 an updated and upgraded pip version.
