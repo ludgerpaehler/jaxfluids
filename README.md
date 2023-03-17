@@ -11,14 +11,6 @@ To learn more about implementation details and details on numerical methods prov
 by JAX-Fluids, feel free to read [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0010465522002466).
 And also check out the [documentation](https://jax-fluids.readthedocs.io/en/latest/index.html) of JAX-Fluids.
 
-Authors:
-
-- [Deniz A. Bezgin](https://www.epc.ed.tum.de/en/aer/mitarbeiter-innen/cv-2/a-d/m-sc-deniz-bezgin/)
-- [Aaron B. Buhendwa](https://www.epc.ed.tum.de/en/aer/mitarbeiter-innen/cv-2/a-d/m-sc-aaron-buhendwa/)
-- [Nikolaus A. Adams](https://www.epc.ed.tum.de/en/aer/members/cv/prof-adams/)
-
-Correspondence via [mail](mailto:aaron.buhendwa@tum.de,mailto:deniz.bezgin@tum.de).
-
 ## Physical models and numerical methods
 
 JAX-Fluids solves the Navier-Stokes-equations using the finite-volume-method on a Cartesian grid. 
@@ -63,36 +55,10 @@ pip install .[cuda] -f https://storage.googleapis.com/jax-releases/jax_cuda_rele
 For more information
 on JAX on GPU please refer to the [github of JAX](https://github.com/google/jax)
 
-## Quickstart
-This github contains five [jupyter-notebooks](https://github.com/tumaer/JAXFLUIDS/tree/main/notebooks) which will get you started quickly.
-They demonstrate how to run simple simulations like a 1D sod shock tube or 
-a 2D supersonic cylinder flow. Furthermore, they show how you can easily
-switch the numerical and/or case setup in order to, e.g., increase the order
-of the spatial reconstruction stencil or decrease the resolution of the simulation.
-
-## Upcoming features 
-- 5-Equation diffuse interface model for multiphase flows 
-- CPU/GPU/TPU parallelization based on homogenous domain decomposition
 
 ## Documentation
 Check out the [documentation](https://jax-fluids.readthedocs.io/en/latest/index.html) of JAX-Fluids.
 
-## Citation
-https://doi.org/10.1016/j.cpc.2022.108527
-
-```
-@article{BEZGIN2022108527,
-   title = {JAX-Fluids: A fully-differentiable high-order computational fluid dynamics solver for compressible two-phase flows},
-   journal = {Computer Physics Communications},
-   pages = {108527},
-   year = {2022},
-   issn = {0010-4655},
-   doi = {https://doi.org/10.1016/j.cpc.2022.108527},
-   url = {https://www.sciencedirect.com/science/article/pii/S0010465522002466},
-   author = {Deniz A. Bezgin and Aaron B. Buhendwa and Nikolaus A. Adams},
-   keywords = {Computational fluid dynamics, Machine learning, Differential programming, Navier-Stokes equations, Level-set, Turbulence, Two-phase flows}
-} 
-```
 ## License
 This project is licensed under the GNU General Public License v3 - see 
 the [LICENSE](LICENSE) file or for details https://www.gnu.org/licenses/.
