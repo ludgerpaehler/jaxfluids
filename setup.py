@@ -28,7 +28,6 @@ if __name__=='__main__':
             "h5py",
             "jax",
             "jaxlib",
-            "matplotlib",
             "numpy",
             "optax",
         ],
