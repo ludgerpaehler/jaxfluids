@@ -1,9 +1,9 @@
 {
 	// More info about Features: https://containers.dev/features
-	"image": "mcr.microsoft.com/devcontainers/universal:linux",
+	"image": "ghcr.io/mamba-org/micromamba-devcontainer:latest",
 	"features": {},
 
-	"onCreateCommand": ".devcontainer/setup.sh",
+	"onCreateCommand": "micromamba env create -f environment.yaml --yes",
 	"postCreateCommand": "",
 
 	"customizations": {
