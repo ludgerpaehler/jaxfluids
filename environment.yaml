@@ -2,8 +2,6 @@ channels:
 - conda-forge
 - defaults
 dependencies:
-- numpy
 - pip
 - pre-commit
-- jax
 name: jaxfluids-env
