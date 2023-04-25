@@ -8,7 +8,7 @@ authors = [
 ]
 license = "GNU GPLv3"
 readme = "README.md"
-packages = [{include = "src/jaxfluids"}]
+packages = [{include = "jaxfluids"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
