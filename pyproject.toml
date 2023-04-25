@@ -1,6 +1,42 @@
-[build-system]
-requires = [
-    "setuptools>=42",
-    "wheel",
+[tool.poetry]
+name = "jaxfluids"
+version = "0.1.0"
+description = "Fully-differentiable CFD solver for compressible two-phase flows."
+authors = [
+    "Deniz Bezgin <deniz.bezgin@tum.de>",
+    "Aaron Buhendwa <aaron.buhendwa@tum.de>"
 ]
-build-backend = "setuptools.build_meta"
+license = "GNU GPLv3"
+readme = "README.md"
+packages = [{include = "src/jaxfluids"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jax
+jaxlib
+h5py
+numpy
+optax
+
+[tool.poetry.group.dev.dependencies]
+black = "23.3.0"
+pre-commit = "^3.2.1"
+ruff = "^0.0.260"
+
+[tool.ruff]
+line-length = 100
+ignore = ["D203"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+force-exclude = '''
+    docs/
+    examples/
+    notebooks/
+    tutorials/
+'''
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
