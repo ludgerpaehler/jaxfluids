@@ -12,11 +12,12 @@ packages = [{include = "src/jaxfluids"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-jax
-jaxlib
-h5py
-numpy
-optax
+jax = "^0.4"
+jaxlib = "^0.4"
+dm-haiku = "^0.0.9"
+h5py = "^3.8.0"
+numpy = "^1.24.2"
+optax = "^0.1.4"
 
 [tool.poetry.group.dev.dependencies]
 black = "23.3.0"
