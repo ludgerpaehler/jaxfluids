@@ -11,10 +11,9 @@ readme = "README.md"
 packages = [{include = "jaxfluids"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-jax = "^0.4"
-jaxlib = "^0.4"
-dm-haiku = "^0.0.9"
+python = "^3.8"
+jax = "^0.4.6"
+dm-haiku = "^0.0.7"
 h5py = "^3.8.0"
 numpy = "^1.24.2"
 optax = "^0.1.4"
@@ -23,7 +22,7 @@ optax = "^0.1.4"
 black = "23.3.0"
 pre-commit = "^3.2.1"
 ruff = "^0.0.260"
-isort = "^5.12.0"
+isort = "^5.10.0"
 
 [tool.ruff]
 line-length = 100
