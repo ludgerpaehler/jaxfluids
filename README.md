@@ -78,19 +78,9 @@ pip install .[cuda] -f https://storage.googleapis.com/jax-releases/jax_cuda_rele
 For more information
 on JAX on GPU please refer to the [github of JAX](https://github.com/google/jax)
 
-## Quickstart
-This github contains five [jupyter-notebooks](https://github.com/tumaer/JAXFLUIDS/tree/main/notebooks) which will get you started quickly.
-They demonstrate how to run simple simulations like a 1D sod shock tube or 
-a 2D supersonic cylinder flow. Furthermore, they show how you can easily
-switch the numerical and/or case setup in order to, e.g., increase the order
-of the spatial reconstruction stencil or decrease the resolution of the simulation.
-
 ## Upcoming features 
 - 5-Equation diffuse interface model for multiphase flows 
 - CPU/GPU/TPU parallelization based on homogenous domain decomposition
-
-## Documentation
-Check out the [documentation](https://jax-fluids.readthedocs.io/en/latest/index.html) of JAX-Fluids.
 
 ## Citation
 https://doi.org/10.1016/j.cpc.2022.108527
