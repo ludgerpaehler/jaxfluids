@@ -82,22 +82,6 @@ on JAX on GPU please refer to the [github of JAX](https://github.com/google/jax)
 - 5-Equation diffuse interface model for multiphase flows 
 - CPU/GPU/TPU parallelization based on homogenous domain decomposition
 
-## Citation
-https://doi.org/10.1016/j.cpc.2022.108527
-
-```
-@article{BEZGIN2022108527,
-   title = {JAX-Fluids: A fully-differentiable high-order computational fluid dynamics solver for compressible two-phase flows},
-   journal = {Computer Physics Communications},
-   pages = {108527},
-   year = {2022},
-   issn = {0010-4655},
-   doi = {https://doi.org/10.1016/j.cpc.2022.108527},
-   url = {https://www.sciencedirect.com/science/article/pii/S0010465522002466},
-   author = {Deniz A. Bezgin and Aaron B. Buhendwa and Nikolaus A. Adams},
-   keywords = {Computational fluid dynamics, Machine learning, Differential programming, Navier-Stokes equations, Level-set, Turbulence, Two-phase flows}
-} 
-```
 ## License
 This project is licensed under the GNU General Public License v3 - see 
 the [LICENSE](LICENSE) file or for details https://www.gnu.org/licenses/.
