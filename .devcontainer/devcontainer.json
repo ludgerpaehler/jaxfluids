@@ -1,0 +1,17 @@
+{
+	// More info about Features: https://containers.dev/features
+	"image": "ghcr.io/mamba-org/micromamba-devcontainer:latest",
+	"features": {},
+
+	"onCreateCommand": "micromamba env create -f environment.yaml --yes",
+	"postCreateCommand": "",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python"
+			],
+			"settings": {}
+		}
+	}
+}
